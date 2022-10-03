@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body bgcolor="lightskyblue">
+    
+    <div>
+        <form>
+            <h3>Registration Form</h3>
+            <label>Fist Name </label>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Last Name">
+            <br><br>
+
+            <label>Email</label>
+            <input type="Email" placeholder="Email Address">
+            <br><br>
+
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Phone Number">
+            <br><br>
+
+            <label>Password</label>
+            <input type="text" placeholder="Enter Password">
+            <br><br>
+
+            <label> DOB</label>
+            <input type="date">
+            <br><br>
+
+            <label> Age</label>
+            <input type="number" placeholder="Enter your Age">
+            <br><br>
+
+            <label>Gender</label><br>
+            <label>Male</label>
+            <input type="radio" name="g1">
+            <label>Female</label>
+            <input type="radio" name="g1"><br><br>
+
+            <label>City</label>
+            <select name="" id="">
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Kolkata</option>
+                <option>UP</option>
+                <option>Himachal</option>
+            </select><br><br>
+
+            <label>File upload</label>
+            <input type="file"><br><br>
+
+            <input type="submit">
+            <input type="reset">
+            
+        </form>
+    </div>
+    
+</body>
+</html>
